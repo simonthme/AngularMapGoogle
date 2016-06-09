@@ -1,6 +1,7 @@
 <!doctype html>
-<html ng-app="angularMapGoogleApp">
+<html>
   <head>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBAPlX_f0oajsRAOIPyDfNyfLsNk6NlJgs"></script>
     <meta charset="utf-8">
     <title></title>
     <meta name="description" content="">
@@ -15,7 +16,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-controller="MainCtrl">
+  <body ng-app="angularMapGoogleApp" ng-controller="MainCtrl">
       <header>
           <h1>GOOGLE MAP</h1>
           <p class="imgPara"><img id="googlePointer" src="../images/pointer.png" alt="icon" /></p>
@@ -49,7 +50,7 @@
        ga('send', 'pageview');
     </script>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAPlX_f0oajsRAOIPyDfNyfLsNk6NlJgs"></script>
+
 
 
     <!-- build:js(.) scripts/vendor.js -->

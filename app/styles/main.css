@@ -49,7 +49,11 @@ h1
 body
 {
   height: 100%;
+  background: -moz-radial-gradient(center, ellipse cover, rgba(0,95,158,1) 0%, rgba(0,66,110,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0,95,158,1)), color-stop(100%, rgba(0,66,110,1))); /* safari4+,chrome */
   background:-webkit-radial-gradient(center, ellipse cover, rgba(0,95,158,1) 0%, rgba(0,66,110,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(0,95,158,1) 0%, rgba(0,66,110,1) 100%); /* opera 11.10+ */
+  background: -ms-radial-gradient(center, ellipse cover, rgba(0,95,158,1) 0%, rgba(0,66,110,1) 100%); /* ie10+ */
   background-size: 100% 28%;
   background-repeat: no-repeat;
 }
