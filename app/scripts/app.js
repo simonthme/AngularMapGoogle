@@ -16,11 +16,11 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'view/index.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
       .otherwise({
-        redirectTo: '/index.html'
+        redirectTo: '/view/index.html'
       });
   });

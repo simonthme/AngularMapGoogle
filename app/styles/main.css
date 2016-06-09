@@ -1,0 +1,112 @@
+@font-face
+{
+  font-family: 'titleFont';
+  src: url('../fonts/PoetsenOne-Regular.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+html
+{
+  height: 600px;
+}
+
+header
+{
+  font-family: titleFont, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+h1
+{
+  margin-bottom: 0;
+}
+
+.imgPara
+{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#googlePointer
+{
+  height: 50px;
+  width: 50px;
+}
+
+
+
+body
+{
+  height: 100%;
+  background:-webkit-radial-gradient(center, ellipse cover, rgba(0,95,158,1) 0%, rgba(0,66,110,1) 100%);
+  background-size: 100% 28%;
+  background-repeat: no-repeat;
+}
+
+#map
+{
+  height: 75%;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: solid 2px rgba(0,95,158,1);
+  box-shadow: 4px 4px 2px black;
+}
+
+#dateTime
+{
+  font-family: titleFont;
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+
+}
+
+#display
+{
+  color: rgba(0,95,158,1);
+  font-family: titleFont, Arial, sans-serif;
+  font-size: 1.2em;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+
+}
+
+#display label
+{
+  height :50px;
+  width : 120px;
+  margin-left: 30px;
+}
+
+#display p{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 20px;
+
+}
+
+#about
+{
+  display:flex;
+  justify-content: center;
+}
+
+#about p{
+  font-family: "Trebuchet MS" , Arial, sans-serif;
+  text-align: center;
+  font-size: 0.6em;
+  font-style: italic;
+}

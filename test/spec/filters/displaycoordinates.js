@@ -13,7 +13,7 @@ beforeEach(inject(function (_displayLat_) {
 
 it('should return the input prefixed with "displayLat filter"', function () {
   var lat = 35.56478304;
-  expect(displayLat(lat)).toBe("35°33'52''");
+  expect(displayLat(lat)).toBe("35°33'52''E");
 });
 
 });
